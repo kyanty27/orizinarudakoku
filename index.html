@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>打刻アプリ</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+        <header>
+        <div class="image"><img src="images/freee.png"></div>
+        </header>
+        <h1>〜打刻アプリ〜</h1>
+        <div class="flex">
+            <div class="btn-group">
+                <button type="button"id="btn-01">出勤</button>
+                <button type="button"id="btn-02">退勤</button>
+                <button type="button"id="btn-03">休憩開始</button>
+                <button type="button"id="btn-04">休憩終了</button>
+            </div>
+        <script> 
+            var jikan= new Date();
+            var hour = jikan.getHours();
+            var minute = jikan.getMinutes();
+            var second = jikan.getSeconds();
+            document.write(hour+"時",+minute+"分"+second+"秒");
+        </script>
+        </body>

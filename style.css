@@ -1,0 +1,31 @@
+/*pc、スマホ共通スタイル*/
+body{
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN",Meiryo,Arial,sans-serif;
+    background-color: beige;
+}
+p{
+    font-size:35px;
+}
+h1{
+    color:blue;
+    background-color: #00FFFF;
+}
+.image {
+	margin-right: calc(50% - 50vw);
+	margin-left: calc(50% - 50vw);
+}
+
+.image img {
+	display: block;
+	width: 100%;
+	height: 6cm;
+}
+.flex{
+    display:flex;
+}
+.btn-group button{
+    display:block;
+}
+.text-item > .time:empty + .label{
+    opacity:0;
+}
